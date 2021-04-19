@@ -1,5 +1,5 @@
 # DeepHost
-DeepHost, a phage host prediction tool.
+DeepHost is a phage host prediction tool.
 
 ## Prerequisite
 DeepHost is implemented with Python3.6 and keras2.2.4. Following packages should be installed.
