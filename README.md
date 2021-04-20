@@ -7,6 +7,11 @@ DeepHost is implemented with Python3.6 and keras2.2.4. Following packages should
 + numpy
 + keras
 
+Before using DeepHost, please build the Cython file with the command:
+```shell
+python setup.py build_ext --inplace
+```
+
 ## Usage
 ```shell
 cd Scripts
