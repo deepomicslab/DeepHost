@@ -23,6 +23,10 @@ For more information, please use the command:
 ```shell
 python SeCNV.py -h
 ```
+or
+```shell
+python SeCNV.py --help
+```
 
 ## Data
 + data/sample\_data.fasta: The sample phage genomes.
