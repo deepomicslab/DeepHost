@@ -19,7 +19,10 @@ python SeCNV.py Phage_genomes.fasta -o Output_name.txt -r species
 ```
 Phage\_genomes.fasta contains phage genome sequences in fasta format. DeepHost supports both single genome and multiple genomes in one file. The input of -o is the filename of the output file, and the default filename is DeepHost\_output.txt. The input of -r is the taxonomic rank of predictions, which accepts genus and species (default).
 
-For more information, please use python SeCNV.py -h or python SeCNV.py --help.
+For more information, please use the command:
+```shell
+python SeCNV.py -h
+```
 
 ## Data
 + data/sample\_data.fasta: The sample phage genomes.
