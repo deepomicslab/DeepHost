@@ -7,6 +7,13 @@ DeepHost is implemented with Python3.6 and keras2.2.4. Following packages should
 + numpy
 + keras
 
+
+Please install Git LFS and use the following command to clone the repository.
+```shell
+git lfs clone https://github.com/deepomicslab/DeepHost.git
+```
+
+
 Before using DeepHost, please build the Cython file with the command:
 ```shell
 python setup.py build_ext --inplace
