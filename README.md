@@ -27,8 +27,8 @@ cd DeepHost_scripts
 python DeepHost.py Phage_genomes.fasta --out Output_name.txt --rank species
 ```
 + Phage\_genomes.fasta contains phage genome sequences in fasta format. DeepHost supports both single genome and multiple genomes in one file. 
-+ The input of -o is the filename of the output file, and the default filename is DeepHost\_output.txt. 
-+ The input of -r is the taxonomic rank of predictions, which accepts genus and species (default).
++ The input of --out is the filename of the output file, and the default filename is DeepHost\_output.txt. 
++ The input of --rank is the taxonomic rank of predictions, which accepts genus and species (default).
 + The input of --thread is the number of worker processes to use for genome encoding (default:1). 
 
 For example:
@@ -49,7 +49,7 @@ python DeepHost.py --help
 ### Meta data processing
 If the phages are digging from the metagenome, we provide a pipeline to use the bacterial genomes to increase the prediction accuracy.
 
-First, use Kraken2 to perform taxonomic classification for all the bacterial sequences with the following command. Kraken\_DB is the name of the Kraken bacterial database. seq.fasta isthe file contains the sequences assembled from meta sequencing data.
+First, use Kraken2 to perform taxonomic classification for all the bacterial sequences with the following command. Kraken\_DB is the name of the Kraken bacterial database. Seq.fasta is the file contains the sequences assembled from meta sequencing data.
 ```shell
 kraken2 --db Kraken_DB  --report report_file.txt seq.fasta
 ```
@@ -61,7 +61,7 @@ python DeepHost.py ../example/meta/meta_phage.fasta --bacterial ../example/meta/
 ```
 
 ### The probability of all the hosts
-In default case, DeepHost will return the most likely host for the input phages. If you want to obtain the probability of all the host taxonomies (72 genus taxonomies and 118 species taxonomies), please use the parameter --multiple True.
+In default case, DeepHost will return the most likely host for the input phages. If you want to obtain the probability of all the host taxonomies (72 genus taxonomies or 118 species taxonomies), please use the parameter --multiple True.
 
 For example:
 ```shell
