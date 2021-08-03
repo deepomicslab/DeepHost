@@ -1,0 +1,71 @@
+Staphylococcus aureus
+Salmonella enterica
+Pseudomonas fluorescens
+Streptococcus pneumoniae
+Prochlorococcus marinus
+Thermus thermophilus
+Candidatus Pelagibacter ubique
+Lactobacillus delbrueckii
+Sodalis glossinidius
+Caulobacter vibrioides
+Providencia stuartii
+Streptomyces coelicolor
+Ruegeria pomeroyi
+Colwellia psychrerythraea
+Pectobacterium atrosepticum
+Croceibacter atlanticus
+NA
+Candidatus Puniceispirillum marinum
+Aggregatibacter actinomycetemcomitans
+NA
+Thermoanaerobacterium saccharolyticum
+Cronobacter muytjensii
+Cellulophaga baltica
+Cellulophaga baltica
+Thermus thermophilus
+Prochlorococcus marinus
+Lactococcus lactis
+Clostridium perfringens
+Streptococcus pneumoniae
+Prochlorococcus marinus
+Streptococcus salivarius
+Cellulophaga baltica
+Cellulophaga baltica
+Mycobacterium smegmatis
+Enterococcus faecalis
+Rhizobium leguminosarum
+Burkholderia cenocepacia
+Prochlorococcus marinus
+Prochlorococcus marinus
+Chlamydia pneumoniae
+Bacillus subtilis
+Alteromonas macleodii
+Escherichia coli
+Prochlorococcus marinus
+Sinorhizobium meliloti
+NA
+NA
+Lactobacillus casei
+NA
+Prochlorococcus marinus
+Prochlorococcus marinus
+NA
+Rhizobium leguminosarum
+Salmonella enterica
+Yersinia pestis
+NA
+Salmonella enterica
+NA
+Escherichia coli
+Oenococcus oeni
+Pseudomonas syringae
+Oenococcus oeni
+Bacillus thuringiensis
+Pseudomonas aeruginosa
+Salmonella enterica
+Escherichia coli
+Helicobacter pylori
+Pseudomonas aeruginosa
+Sulfolobus solfataricus
+Haloarcula hispanica
+Sulfolobus islandicus
