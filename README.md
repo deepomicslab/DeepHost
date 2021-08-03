@@ -26,7 +26,15 @@ python setup.py build_ext --inplace
 cd DeepHost_scripts
 python DeepHost.py Phage_genomes.fasta --out Output_name.txt --rank species
 ```
-Phage\_genomes.fasta contains phage genome sequences in fasta format. DeepHost supports both single genome and multiple genomes in one file. The input of -o is the filename of the output file, and the default filename is DeepHost\_output.txt. The input of -r is the taxonomic rank of predictions, which accepts genus and species (default).
++ Phage\_genomes.fasta contains phage genome sequences in fasta format. DeepHost supports both single genome and multiple genomes in one file. 
++ The input of -o is the filename of the output file, and the default filename is DeepHost\_output.txt. 
++ The input of -r is the taxonomic rank of predictions, which accepts genus and species (default).
++ The input of --thread is the number of worker processes to use for genome encoding (default:1). 
+For example:
+```shell
+cd DeepHost_scripts
+python DeepHost.py ../example/test_data.fasta --thread 10
+```
 
 For more information, please use the command:
 ```shell
@@ -68,7 +76,12 @@ For example:
 cd DeepHost_train
 python DeepHost_train.py phage_genomes.fasta host_information_file.txt --rank species
 ```
-phage\_genomes.fasta contains phage genome sequences in fasta format. host\_information\_file.txt contains the host information (genus or species taxnomomies), which should have the same order with fasta file. The input of --rank is the taxonomic rank, which accepts genus and species (default). The input of --epoch is the times that CNN will work through the entire training dataset (default:20). The input of --split is the proportion of the dataset to include in the test split for validation (default:0.1). The input of --thread is the number of worker processes to use for genome encoding(default:1). 
++ phage\_genomes.fasta contains phage genome sequences in fasta format. 
++ host\_information\_file.txt contains the host information (genus or species taxnomomies), which should have the same order with fasta file. 
++ The input of --rank is the taxonomic rank, which accepts genus and species (default). 
++ The input of --epoch is the times that CNN will work through the entire training dataset (default:20). 
++ The input of --split is the proportion of the dataset to include in the test split for validation (default:0.1). 
++ The input of --thread is the number of worker processes to use for genome encoding (default:1). 
 
 For more information, please use the command:
 ```shell
