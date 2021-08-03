@@ -30,6 +30,7 @@ python DeepHost.py Phage_genomes.fasta --out Output_name.txt --rank species
 + The input of -o is the filename of the output file, and the default filename is DeepHost\_output.txt. 
 + The input of -r is the taxonomic rank of predictions, which accepts genus and species (default).
 + The input of --thread is the number of worker processes to use for genome encoding (default:1). 
+
 For example:
 ```shell
 cd DeepHost_scripts
