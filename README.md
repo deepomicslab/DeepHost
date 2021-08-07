@@ -72,7 +72,6 @@ python DeepHost.py ../example/test_data.fasta --multiple True --thread 10
 ### Train customized models
 In case there are some private datasets, DeepHost provides a user-friendly script for users to train their customized models.
 
-For example:
 ```shell
 cd DeepHost_train
 python DeepHost_train.py phage_genomes.fasta host_information_file.txt --rank species
