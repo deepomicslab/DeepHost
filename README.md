@@ -97,7 +97,7 @@ After training, users can find the trained model CNN\_genus\_model.h5 or CNN\_sp
 
 Here is a toy example:
 ```shell
-DeepHost_train.py ../example/test_data.fasta ../example/test_data_species.txt --thread 10
+python DeepHost_train.py ../example/test_data.fasta ../example/test_data_species.txt --thread 10
 ```
 
 
