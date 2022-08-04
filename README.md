@@ -108,3 +108,15 @@ python DeepHost_train.py ../example/test_data.fasta ../example/test_data_species
 
 ## Maintainer
 WANG Ruohan ruohawang2-c@my.cityu.edu.hk
+
+## Reference
+@article{ruohan2022deephost,
+  title={DeepHost: phage host prediction with convolutional neural network},
+  author={Ruohan, Wang and Xianglilan, Zhang and Jianping, Wang and Shuai Cheng, LI},
+  journal={Briefings in Bioinformatics},
+  volume={23},
+  number={1},
+  pages={bbab385},
+  year={2022},
+  publisher={Oxford University Press}
+}
