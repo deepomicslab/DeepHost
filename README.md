@@ -12,7 +12,7 @@ Please install Git LFS and use the following command to clone the repository.
 ```shell
 git lfs clone https://github.com/deepomicslab/DeepHost.git
 ```
-if you can not download DeepHost from github, please use the link: https://drive.google.com/drive/folders/1EXAoorQI-SEwfX-WNGuAFkfNqv_zSXWJ?usp=sharing or contact the maintainer.
+if you can not download DeepHost from github, please download from [Zenodo](https://zenodo.org/records/14408212).
 
 Before using DeepHost, please build the Cython file with the command:
 ```shell
